@@ -31,7 +31,6 @@ github_username:  johnywalves
 
 # Build settings
 permalink: ":slug"
-theme: minima
 plugins:
   - jekyll-feed
 
