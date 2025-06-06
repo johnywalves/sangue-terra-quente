@@ -6,7 +6,7 @@
   <main id="home">
     <section id="tales">
       {% for post in site.posts %}
-      <a href="{% link {{ post.path }} %}">
+      <a href="{{ site.baseurl }}/{{ post.slug }}">
         {{ post.title }}
       </a>
       {% endfor %}
