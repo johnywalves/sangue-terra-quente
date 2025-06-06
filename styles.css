@@ -1,0 +1,119 @@
+/* Reset CSS */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Content CSS */
+:root {
+  --color-background: #010206;
+  --color-primary-pure: #991f1c;
+  --color-text: #ffffff;
+
+  --size-header: 4rem;
+  --size-footer: 7rem;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --size-header: 6rem;
+    --size-footer: 7rem;
+  }
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+}
+
+main {
+  min-height: calc(100vh - var(--size-header) - var(--size-footer));
+  min-height: calc(100dvh - var(--size-header) - var(--size-footer));
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--color-primary-pure);
+  cursor: pointer;
+}
+
+/* Content Header */
+header {
+  height: var(--size-header);
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Content Footer */
+footer {
+  height: var(--size-footer);
+}
+
+/* Content Home */
+main#home {
+  display: flex;
+  flex-direction: column;
+}
+
+main#home section {
+  padding: 1rem;
+}
+
+main#home #tales {
+  font-size: 1.25rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+/* Content Tale */
+main#tale {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+main#tale img.feature {
+  width: 100vw;
+  height: 15rem;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+main#tale h2 {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+main#tale p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 150%;
+  font-size: 1.25rem;
+}

@@ -1,0 +1,17 @@
+{% include head.html %}
+
+<body>
+  {% include header.html %}
+
+  <main id="tale">
+    <img
+      class="feature"
+      src="{{ site.baseurl }}/images/{{page.feature}}"
+      alt=""
+    />
+    <h2>{{ page.title }}</h2>
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+</body>
