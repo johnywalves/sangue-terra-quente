@@ -1,0 +1,74 @@
+---
+layout: posts
+title: Capitulo 4 - Filhote
+feature: black_ritual.jpg
+date: 2025-06-05 00:00:00 -0300
+---
+
+Um grito de esforço ecoou do buraco. Caolho olhou para o lado, em direção à abertura. Boris pulou para dentro, ignorando a escada. Aproximei-me da entrada com calma, observando os arredores. Entrar no buraco e ficar cercado lá dentro não seria uma boa ideia. Cheguei à borda, mas não conseguia ver nada no interior - apenas ouvia uma conversa amigável, cujo conteúdo não distinguia.
+
+Olhando em volta, notei a ausência de Dante, que havia ficado do lado de fora sem responder há algum tempo.
+
+— Dante! — gritei, esperando por uma resposta que não veio.
+
+Corri para fora. Dante estava caído no chão, com uma marca de forte impacto no lado esquerdo do rosto. Um rastro de pegadas humanas seguia em direção ao portão da fazenda, transformando-se em patas caninas a poucos metros do candidato. Pensamentos invadiram minha mente: "Seguir ele seria a melhor escolha?", "Ele fugiu, não deve ser uma ameaça", "Estava limpo e nem tentou defender o local"...
+
+Boris saiu da casa acompanhando um jovem de cabelos castanho-claros enrolados, com um olhar bondoso.
+
+— Qual seu nome, jovem? — perguntei com tom fraternal, porém inquisitivo.
+
+— Thor — respondeu ele, receoso, segurando um pingente que pendia de seu colar.
+
+— Estava sozinho?
+
+— Sim.
+
+— Seu cabelo está seco. Tomou banho há pouco?
+
+— Não! — respondeu, confuso, buscando entender minha pergunta em meus olhos.
+
+Um estalido forte de madeira queimando veio da casa, que começava a pegar fogo. Boris permanecia de pé, observando calmamente as chamas. Ele havia ateado fogo - ainda estava irritado com o que vira na capela. Caolho saiu em forma canina, farejando o chão em direção ao bosque.
+
+— Caolho, onde você está indo? — Sabia a resposta, mas queria entender a urgência daquela missão.
+
+Ele não respondeu, apenas indicou que deveríamos segui-lo. Sinalizei para Dante, Boris e Thor a direção e adentrei o caminho. Boris permaneceu imóvel, fixo nas chamas. Thor me acompanhou.
+
+Poucos minutos dentro do bosque, percebi que não era um bosque, e sim uma plantação de seringueiras. Aquele pequeno refúgio natural já havia sido transformado em uma fábrica... Caolho latiu, apontando para o meio das árvores. Aproximei-me para visualizar o alvo, e um calor súbito tomou meu corpo. De repente, o torso de uma criatura gigante emergiu do chão e, com um golpe de braço, me arremessou para longe. Tudo escureceu.
+
+...
+
+Não sei quanto tempo se passou. Levantei-me tonto, no meio dos destroços de uma seringueira destruída. Antes que pudesse compreender completamente a situação, uma onda de calor incendiou os troncos ao meu redor. Uma criatura com o dobro do meu tamanho estava a poucas dezenas de metros de mim.
+
+Fiquei alerta. Deixei que parte de minha fúria tomasse conta, transformando-me em uma forma mais musculosa e ágil. Com essa força recém-liberada, soltei um gutural, agarrei meu machado gigante e corri em direção à criatura, mirando no pescoço. Sua pele era dura - a lâmina não penetrou profundamente, mas abriu um rasgo no peito que liberou chamas, acompanhadas por um grito de dor.
+
+Caolho, em forma de lobo gigante, rosnou para o monstro, que revidou com um rosnado ainda mais feroz, forçando-o a retornar à forma humana. O som de uma explosão chamou minha atenção: um lobisomem completo dirigia uma caminhonete em nossa direção. Boris, também transformado, pulou na carroceria do veículo. Correndo ao lado, um lobisomem de pelos castanhos, com braços e pernas longas e negras, avançava.
+
+A criatura ferida gritou e avançou contra mim. Com um giro e um grito vindo da alma, canalizei toda minha raiva naquele momento. Movi a lâmina, mirando entre as costelas, e aceitei o embate, abrindo outro rasgo em direção ao peito, unindo-se ao corte anterior. Com um grito de raiva e coragem, ela se abaixou, esticando o braço para me alcançar.
+
+Sob o som de um motor forçado, acelerando na marcha errada, a 4x4 aproximou-se. Em um salto, o lobo negro e castanho pularam sobre a criatura, rasgando sua pele com suas garras. Em seguida, a caminhonete arremessou-se contra o monstro, esmagando-o e anunciando seu fim com um urro.
+
+As chamas se apagaram. O corpo inerte da criatura se contraiu, formando um buraco no local onde Han, Boris e eu estávamos. Deixamo-nos cair na abertura, prontos para continuar o combate. No chão, um pequeno lobo respirava com dificuldade. Aproximei-me para acolher o filhote. Han lançou-se ao chão, pegando-o em seus braços, com um brilho nos olhos. Ao tocar a criatura, ela se desfez em chamas azuis. Han abriu os braços, deixando as luzes encontrarem a terra. Ao tocar o solo, o filhote ergueu-se como um espírito rodeado de chamas azuis.
+
+— Obrigado — disse com um sorriso leve, abaixando a cabeça em agradecimento. — Obrigado por me libertarem da minha prisão, por me libertarem do meu sofrimento.
+
+Aproximou-se de Han, cabeça baixa em respeito. O policial replicou o gesto, completando a aproximação. Quando se tocaram, a presença desapareceu. De onde ela estava, emergiu uma onda que cobriu todo o ambiente. As plantas reviveram levemente, e uma paz envolveu nossos corações.
+
+Usando a ressonância da alma, iniciei um canto de despedida. Todos se aproximaram, formando um círculo ao redor de Han, que se ajoelhou e colocou a mão direita no chão, pronunciando uma prece. Ao redor de sua mão, formou-se uma teia de aranha em luzes azuis, que cresceu até preencher toda a área, revitalizando a vegetação.
+
+— Pelo fogo, pelo vento, pela água, pelo ar — Han recitou, sua voz ecoando como em um ritual.
+
+— Pelo fogo, pelo vento, pela água, pelo ar — repetimos todos no mesmo tom.
+
+— Aqui se encontram o espírito da Aranha, do Falcão e do Rato — continuou, olhando em nossos olhos. — Temos uma alcateia, temos um grupo, temos uma família.
+
+— Temos uma família — cada um repetiu individualmente, em sequência.
+
+— Tenho um lugar de descanso — Han falou em voz alta, com confiança e determinação. — Temos um paraíso. — Fez uma pausa, controlando as emoções. — Temos um Caern!!!
+
+— Temos um Caern!!! — repetimos em uníssono.
+
+— Precisamos de um nome — ponderou, olhando para sua nova família.
+
+— O que seu coração acha que devemos chamar? — sugeri, colocando a mão aberta sobre o peito de Han.
+
+— Filho Ferido — Han respirou fundo, abaixou a cabeça em reverência e ergueu-a. — Caern Filhote Ferido.
