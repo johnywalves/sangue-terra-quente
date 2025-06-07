@@ -27,7 +27,7 @@ O contratante se afastou com uma leve inclinação do corpo, que interpretei com
 
 — Até o momento, não. Vou te avisando.
 
-...
+<p class="sometime" >...</p>
 
 Já em cima da moto, com o endereço do local e o contato do amigo, cheguei ao recinto. O show do after ainda estava acontecendo—sorte minha. Paguei o ingresso, metade do preço por causa da hora avançada—outra sorte minha. Entrei e procurei pelo lugar mais isolado e escuro. Chegando lá, havia uma dupla de policiais forenses, com viaturas monocromáticas e fitas de "Não ultrapasse". Visualizei uma arquibancada alta destruída, muitas pegadas correndo dali e várias marcas de VIOLÊNCIA. Cheguei perto para ouvir a conversa:
 
@@ -55,7 +55,7 @@ Antes da conversa continuar, senti uma presença. Um lupino. Me virei para ident
 
 — Claro! Com todo prazer! — Falei, pegando o capacete reserva. Não estava mentindo.
 
-...
+<p class="sometime" >...</p>
 
 Alguns minutos depois—confesso que a ansiedade e a empolgação me tomaram um pouco e acelerei mais que o esperado—chegamos lá. Um homem de chapéu à noite, estatura um pouco menor que a média, terno rosa bem cortado e um olho sem íris nos recebeu:
 
@@ -97,7 +97,7 @@ Eles se entreolharam rápido e começaram a contar sobre a contaminação gerada
 
 — Claro! Com todo prazer!
 
-...
+<p class="sometime" >...</p>
 
 Minha rotina habitual, quando fora da minha cidade, começa acordando ao meio-dia: dedico um tempo para meditação, um treino na academia, trabalho nas músicas com a banda até o pôr do sol e me encontro com o cenário musical ou moto clubes da cidade para relaxar antes das apresentações da noite. Mas não hoje.
 
@@ -123,7 +123,7 @@ Pulei a meditação da manhã e fui direto para a academia. Ao encontrar a banda
 
 Após o ensaio, me isolei para meditar e me preparar para o evento da noite. Existe algo grande acontecendo nessa cidade. Os espíritos estão inquietos. Eles querem me contar alguma coisa. Eles vão me contar.
 
-...
+<p class="sometime" >...</p>
 
 Mais à noite, saí do isolamento da meditação. Havia uma pizza na mesa e uma lata vazia de cerveja. Fui até a geladeira, peguei uma lata e um pedaço de pizza. Segui a voz de Agnes e Richard na cobertura—eles estavam conversando sobre a letra de uma música nova que estamos compondo:
 
@@ -143,7 +143,7 @@ Mais à noite, saí do isolamento da meditação. Havia uma pizza na mesa e uma 
 
 — Vamos fazer o que temos de fazer. Estejam prontos. — Orientei com voz de conselho.
 
-...
+<p class="sometime" >...</p>
 
 Nos bastidores do show, estávamos conferindo os instrumentos quando fui informado da chegada e presença do caolho. Aparentemente, ele conhece as pessoas que trabalham no clube e a cidade toda. Eu achava que o candidato a prefeito era o Dante. Com uma garrafa de 5 litros de sangue de boi, ele me abordou:
 
@@ -163,7 +163,7 @@ Nos bastidores do show, estávamos conferindo os instrumentos quando fui informa
 
 — Espero que te ajude. — Finalizei a conversa, voltando para o instrumento.
 
-...
+<p class="sometime" >...</p>
 
 A equipe do local nos informou que era hora do show. Caminhando na direção do palco, o Wellington e o Richard rapidamente me seguiram. Agnes chegou logo, me arrumando e tirando o batom borrado, seguida pelo caolho, ajeitando a camisa:
 

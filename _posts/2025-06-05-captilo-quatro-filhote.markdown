@@ -5,7 +5,7 @@ feature: black_ritual.jpg
 date: 2025-06-05 00:00:00 -0300
 ---
 
-Um grito de esforço ecoou do buraco. Caolho olhou para o lado, em direção à abertura. Boris pulou para dentro, ignorando a escada. Aproximei-me da entrada com calma, observando os arredores. Entrar no buraco e ficar cercado lá dentro não seria uma boa ideia. Cheguei à borda, mas não conseguia ver nada no interior - apenas ouvia uma conversa amigável, cujo conteúdo não distinguia.
+Um grito de esforço ecoou do buraco. Caolho olhou para o lado, em direção à abertura. Boris pulou para dentro, ignorando a escada. Aproximei-me da entrada com calma, observando os arredores. Entrar no buraco e ficar cercado lá dentro não seria uma boa ideia. Cheguei à borda, mas não conseguia ver nada no interior, apenas ouvia uma conversa amigável, cujo conteúdo não distinguia.
 
 Olhando em volta, notei a ausência de Dante, que havia ficado do lado de fora sem responder há algum tempo.
 
@@ -25,7 +25,7 @@ Boris saiu da casa acompanhando um jovem de cabelos castanho-claros enrolados, c
 
 — Seu cabelo está seco. Tomou banho há pouco?
 
-— Não! — respondeu, confuso, buscando entender minha pergunta em meus olhos.
+— Não! — respondeu, confuso, buscando entender a pergunta em meus olhos.
 
 Um estalido forte de madeira queimando veio da casa, que começava a pegar fogo. Boris permanecia de pé, observando calmamente as chamas. Ele havia ateado fogo - ainda estava irritado com o que vira na capela. Caolho saiu em forma canina, farejando o chão em direção ao bosque.
 
@@ -35,7 +35,7 @@ Ele não respondeu, apenas indicou que deveríamos segui-lo. Sinalizei para Dant
 
 Poucos minutos dentro do bosque, percebi que não era um bosque, e sim uma plantação de seringueiras. Aquele pequeno refúgio natural já havia sido transformado em uma fábrica... Caolho latiu, apontando para o meio das árvores. Aproximei-me para visualizar o alvo, e um calor súbito tomou meu corpo. De repente, o torso de uma criatura gigante emergiu do chão e, com um golpe de braço, me arremessou para longe. Tudo escureceu.
 
-...
+<p class="sometime" >...</p>
 
 Não sei quanto tempo se passou. Levantei-me tonto, no meio dos destroços de uma seringueira destruída. Antes que pudesse compreender completamente a situação, uma onda de calor incendiou os troncos ao meu redor. Uma criatura com o dobro do meu tamanho estava a poucas dezenas de metros de mim.
 
