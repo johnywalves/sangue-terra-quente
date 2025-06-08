@@ -1,5 +1,49 @@
 {% include head.html %}
 
+<style>
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  main img.feature {
+    width: calc(100% - 1rem);
+    height: 15rem;
+    object-fit: cover;
+    object-position: bottom;
+  }
+
+  main h2 {
+    padding: var(--margin-content-y) var(--margin-content-x);
+    font-size: var(--font-tale-h2);
+  }
+
+  main p {
+    padding: 0 var(--margin-content-x);
+
+    line-height: 150%;
+    text-align: justify;
+    text-indent: calc(var(--font-tale-p) * 2);
+
+    font-size: var(--font-tale-p);
+  }
+
+  main p.sometime {
+    padding-top: var(--font-tale-p);
+    padding-bottom: var(--font-tale-p);
+    text-align: center;
+  }
+
+  main p:has(img) {
+    margin: var(--margin-content-y) auto;
+  }
+
+  main p img {
+    max-width: 80%;
+  }
+</style>
+
 <body>
   {% include header.html %}
 

@@ -174,3 +174,5 @@ Continuando no caminho do palco, coloquei a máscara, e a apresentação começo
 Agnes começou com um ritmo ascendente no tambor, concluindo com um grito gutural, seguido por cânticos tribais misturados com guitarras, tambores, bateria e um vocal poderoso. Tudo começou a virar uma tempestade, com um furacão—e no olho do furacão estava a banda. Dentro da tempestade, imagens surgiram: um homem velho e magro vestindo um terno, rapidamente se transformando em pele decrépita e olhos brilhantes; um lugar afastado na zona rural, um salão com várias pessoas realizando um ritual rodeado por uma fumaça vermelha; e, finalmente, na represa, uma mancha negra, dentro da qual uma criatura negra emergia, com várias faces cravadas no corpo.
 
 — Droga! A minha sorte acabou!
+
+![Banda tocando em um palco](./images/show_1.jpg)

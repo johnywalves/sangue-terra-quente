@@ -72,3 +72,5 @@ Usando a ressonância da alma, iniciei um canto de despedida. Todos se aproximar
 — O que seu coração acha que devemos chamar? — sugeri, colocando a mão aberta sobre o peito de Han.
 
 — Filho Ferido — Han respirou fundo, abaixou a cabeça em reverência e ergueu-a. — Caern Filhote Ferido.
+
+![Banda tocando em um palco](./images/caern_ritual.jpg)

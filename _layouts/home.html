@@ -1,14 +1,35 @@
 {% include head.html %}
 
+<style>
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main a {
+    font-size: var(--font-tale-p);
+  }
+
+  main section {
+      padding: var(--margin-content-y) var(--margin-content-x);
+  }
+
+  main #tales {
+    font-size: 1.25rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+</style>
+
 <body>
   {% include header.html %}
 
   <main id="home">
     <section id="tales">
       {% for post in site.posts %}
-      <a href="{{ site.baseurl }}/{{ post.slug }}">
-        {{ post.title }}
-      </a>
+      <a href="{{ site.baseurl }}/{{ post.slug }}"> {{ post.title }} </a>
       {% endfor %}
     </section>
   </main>
