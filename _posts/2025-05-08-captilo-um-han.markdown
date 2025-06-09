@@ -1,7 +1,8 @@
 ---
 layout: posts
-title: Capitulo 1 - Han
-feature: black_smoke.jpg
+chapter: 1
+title: Han
+feature: chapter_three.jpg
 date: 2025-05-08 00:00:00 -0300
 ---
 

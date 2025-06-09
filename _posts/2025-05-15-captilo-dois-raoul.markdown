@@ -1,7 +1,8 @@
 ---
 layout: posts
-title: Capitulo 2 - Raoul
-feature: black_smoke.jpg
+chapter: 2
+title: Raoul
+feature: chapter_two.jpg
 date: 2025-05-15 00:00:00 -0300
 ---
 

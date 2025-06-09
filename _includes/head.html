@@ -13,7 +13,11 @@
   />
   <meta name="type" property="og:type" content="website" />
   <meta name="url" property="og:url" content="{{page.url}}" />
-  <meta name="site_name" property="og:site_name" content="{{page.title}} | {{ site.title }}" />
+  <meta
+    name="site_name"
+    property="og:site_name"
+    content="{{page.title}} | {{ site.title }}"
+  />
   <meta name="locale" property="og:locale" content="pt_BR" />
 
   <meta name="twitter:card" content="summary_large_image" />
@@ -55,6 +59,7 @@
       --color-background: #171717;
       --color-primary-pure: #991f1c;
       --color-text: #f5f5f5;
+      --color-margin: #f5f5f580;
 
       --size-header: 5rem;
       --size-footer: 7rem;
@@ -70,8 +75,8 @@
         --size-header: 7rem;
         --size-footer: 7rem;
 
-        --font-tale-h2: 2rem;
-        --font-tale-p: 1.75rem;
+        --font-tale-h2: 3rem;
+        --font-tale-p: 2rem;
       }
     }
 
@@ -92,7 +97,7 @@
 
     /* Content Header */
     header {
-      height: var(--size-header);
+      min-height: var(--size-header);
       padding: var(--margin-content-y) var(--margin-content-x);
 
       display: flex;
@@ -102,7 +107,18 @@
 
     /* Content Footer */
     footer {
-      height: var(--size-footer);
+      min-height: var(--size-footer);
+      padding: var(--margin-content-y) var(--margin-content-x);
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    footer span {
+      color: var(--color-primary-pure);
     }
   </style>
 </head>

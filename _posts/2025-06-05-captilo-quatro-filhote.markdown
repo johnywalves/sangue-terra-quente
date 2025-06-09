@@ -1,7 +1,8 @@
 ---
 layout: posts
-title: Capitulo 4 - Filhote
-feature: black_ritual.jpg
+chapter: 4
+title: Filhote
+feature: chapter_four.jpg
 date: 2025-06-05 00:00:00 -0300
 ---
 

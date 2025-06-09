@@ -1,6 +1,6 @@
 {% include head.html %}
 
-<style>
+<style type="text/css" media="screen">
   main {
     display: flex;
     flex-direction: column;
@@ -11,15 +11,25 @@
   }
 
   main section {
-      padding: var(--margin-content-y) var(--margin-content-x);
+    padding: var(--margin-content-y) var(--margin-content-x);
   }
 
   main #tales {
     font-size: 1.25rem;
 
     display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  main div.tale {
+    border: 1px var(--color-margin) solid;
+    border-radius: 0.50rem;
+    padding: 1.5rem;
+
+    display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    align-items: center;
   }
 </style>
 
@@ -29,7 +39,12 @@
   <main id="home">
     <section id="tales">
       {% for post in site.posts %}
-      <a href="{{ site.baseurl }}/{{ post.slug }}"> {{ post.title }} </a>
+      <a href="{{ site.baseurl }}/{{ post.slug }}">
+        <div class="tale">
+          <small>Capítulo {{ post.chapter }}</small>
+          <h3>{{ post.title }}</h3>
+        </div>
+      </a>
       {% endfor %}
     </section>
   </main>

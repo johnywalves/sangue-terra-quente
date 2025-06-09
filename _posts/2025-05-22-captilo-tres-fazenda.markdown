@@ -1,7 +1,8 @@
 ---
 layout: posts
-title: Capitulo 3 - Fazenda
-feature: black_ritual.jpg
+chapter: 3
+title: Fazenda
+feature: chapter_three.jpg
 date: 2025-06-05 00:00:00 -0300
 ---
 

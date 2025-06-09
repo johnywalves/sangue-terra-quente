@@ -1,6 +1,6 @@
 {% include head.html %}
 
-<style>
+<style type="text/css" media="screen">
   main {
     display: flex;
     flex-direction: column;
@@ -8,14 +8,16 @@
   }
 
   main img.feature {
-    width: calc(100% - 1rem);
-    height: 15rem;
+    width: 100%;
     object-fit: cover;
     object-position: bottom;
   }
 
-  main h2 {
+  main div.title {
     padding: var(--margin-content-y) var(--margin-content-x);
+  }
+
+  main h2 {
     font-size: var(--font-tale-h2);
   }
 
@@ -36,6 +38,7 @@
   }
 
   main p:has(img) {
+    text-align: center;
     margin: var(--margin-content-y) auto;
   }
 
@@ -53,7 +56,10 @@
       src="{{ site.baseurl }}/images/{{page.feature}}"
       alt=""
     />
-    <h2>{{ page.title }}</h2>
+    <div class="title">
+      <small>Capítulo {{ page.chapter }}</small>
+      <h2>{{ page.title }}</h2>
+    </div>
     {{ content }}
   </main>
 
