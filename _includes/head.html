@@ -5,6 +5,7 @@
     property="og:description"
     content="{{page.description}}"
   />
+  <meta name="keywords" content="{{page.keywords}}" />
   <meta
     name="image"
     property="og:image"
@@ -25,6 +26,8 @@
   <meta name="twitter:title" content="{{page.title}} | {{ site.title }}" />
   <meta name="twitter:description" content="{{page.description}}" />
   <meta name="twitter:image" content="/path/to/thumbnail" />
+
+  <link rel="icon" href="/images/favicon.png" type="image/png" />
 
   <style>
     /* Reset CSS */
@@ -56,13 +59,13 @@
 
     /* Content CSS */
     :root {
-      --color-background: #171717;
+      --color-background: #000e0e;
       --color-primary-pure: #991f1c;
       --color-text: #f5f5f5;
       --color-margin: #f5f5f580;
 
       --size-header: 5rem;
-      --size-footer: 10rem;
+      --size-footer: 15rem;
       --margin-content-x: 2rem;
       --margin-content-y: 1.5rem;
 
@@ -104,6 +107,13 @@
 
     /* Content Footer */
     footer {
+      background: var(--color-background);
+      background: linear-gradient(
+        180deg,
+        var(--color-background) 50%,
+        var(--color-primary-pure) 100%
+      );
+
       min-height: var(--size-footer);
       padding: calc(2 * var(--margin-content-y)) var(--margin-content-x)
         var(--margin-content-y);
@@ -112,7 +122,9 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 0.5rem;
+      gap: 1rem;
+
+      font-size: 1.25rem;
     }
 
     footer span {
