@@ -1,4 +1,6 @@
 {
+      "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
     "cSpell.words": [
         "Ágnes",
         "bluesky",
@@ -8,7 +10,7 @@
         "jekyll",
         "johnywalves",
         "Jonny",
-        "Ragabash",
-        "Theurge"
+        "ragabash",
+        "theurge"
     ]
 }

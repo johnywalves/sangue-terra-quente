@@ -4,22 +4,60 @@
   main {
     display: flex;
     flex-direction: column;
+
+    & a {
+      font-size: var(--font-tale-p);
+    }
+
+    & h2 {
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    & p {
+      font-size: 1.5rem;
+    }
   }
 
-  main a {
-    font-size: var(--font-tale-p);
+  & div.link {
+    border: 0.125rem var(--color-margin) solid;
+    border-radius: 0.5rem;
+    padding: 1.5rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover {
+      background-color: var(--color-primary-pure);
+      color: var(--color-text);
+    }
+
+    & a:hover {
+      color: var(--color-text);
+    }
+
+    & h3 {
+      font-size: 2.5rem;
+    }
+
+    & small {
+      font-size: 75%;
+    }
+
+    &.disable {
+      pointer-events: none;
+      opacity: 0.5;
+    }
   }
 
-  main section#hero {
+  main section.concept {
     width: 100%;
 
     position: relative;
-    padding: 6rem 2rem;
-    background: linear-gradient(
-      135deg,
-      var(--color-background) 25%,
-      var(--color-primary-pure) 100%
-    );
+    padding: 6rem var(--margin-content-x);
+    background: var(--color-background);
+    background: var(--gradient-hero);
 
     display: flex;
     flex-direction: column;
@@ -30,6 +68,7 @@
       z-index: 2;
       width: 60%;
       font-size: 3rem;
+      text-align: left;
 
       @media (max-width: 980px) {
         width: 100%;
@@ -38,8 +77,7 @@
 
     & p {
       z-index: 2;
-      width: 75%;
-      font-size: 1.5rem;
+      width: 65%;
 
       @media (max-width: 980px) {
         width: 100%;
@@ -50,7 +88,7 @@
       z-index: 1;
       position: absolute;
       bottom: 0;
-      right: 0;
+      right: calc(var(--margin-content-x) - 2rem);
 
       @media (max-width: 980px) {
         opacity: 0.5;
@@ -58,19 +96,59 @@
     }
   }
 
+  main section#sound {
+    background: var(--gradient-sound);
+    align-items: flex-end;
+
+    & div.title {
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      width: 100%;
+
+      & small {
+        font-size: 1.5rem;
+        font-weight: 300;
+      }
+    }
+
+    & h2 {
+      text-align: right;
+    }
+
+    & small {
+      text-align: right;
+    }
+
+    & p {
+      text-align: right;
+      width: 70%;
+
+      @media (max-width: 980px) {
+        width: 100%;
+      }
+    }
+
+    & audio {
+      z-index: 2;
+    }
+
+    & img {
+      left: calc(var(--margin-content-x) - 2rem);
+    }
+  }
+
   main section#tales {
-    padding: 2rem 2rem;
+    position: relative;
+    padding: 2rem var(--margin-content-x) 12rem;
 
     font-size: 1.25rem;
 
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-
-    & h2 {
-      font-size: 3rem;
-      text-align: center;
-    }
+    gap: 4rem;
 
     & div#collection {
       display: flex;
@@ -88,43 +166,96 @@
       }
     }
 
-    & div.tale {
-      border: 0.125rem var(--color-margin) solid;
-      border-radius: 0.5rem;
-      padding: 1.5rem 2rem;
+    & img {
+      z-index: -1;
+      position: absolute;
+      bottom: 0;
+      right: calc(var(--margin-content-x) - 2rem);
 
-      display: flex;
-      flex-direction: column;
+      @media (max-width: 980px) {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  main section#about {
+    padding: 2rem var(--margin-content-x);
+
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    & div.pieces {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       align-items: center;
+      gap: 4rem;
 
-      &:hover {
-        background-color: var(--color-primary-pure);
-        color: var(--color-text);
+      @media (max-width: 980px) {
+        grid-template-columns: 1fr;
       }
 
-      & a:hover {
-        color: var(--color-text);
-      }
-
-      & h3 {
-        font-size: 2.5rem;
-      }
-
-      & small {
-        font-size: 75%;
+      & div.pages {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
       }
     }
   }
 
   main section#team {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 
-    padding-top: 5rem;
+    position: relative;
+    padding: 7rem calc(var(--margin-content-x) + 6rem) 2.5rem;
 
-    & img {
-      width: 100%;
+    & img#photo {
+      margin: 5rem;
+      width: min(75%, 30rem);
+      transform: rotate3d(-1, -1, 1, -55deg);
+    }
+
+    & img.leaf {
+      position: absolute;
+      width: min(25%, 15rem);
+
+      &.one {
+        bottom: 0;
+        left: var(--margin-content-x);
+        transform: rotate3d(-1, -1, 1, -60deg);
+      }
+
+      &.two {
+        top: 3rem;
+        right: calc(var(--margin-content-x) + 8rem);
+        transform: scale(0.75) rotate3d(1, -1, 1, 60deg);
+      }
+
+      &.three {
+        top: 55%;
+        left: calc(var(--margin-content-x) + 6rem);
+        transform: scale(0.8) rotate(-155deg) rotate3d(1, -1, 1, 60deg);
+      }
+
+      &.four {
+        top: 28%;
+        left: calc(var(--margin-content-x) - 6rem);
+        transform: scale(0.65) rotate(-55deg) rotate3d(1, -1, 1, 60deg);
+      }
+
+      &.five {
+        bottom: 12%;
+        right: calc(var(--margin-content-x) + 2rem);
+        transform: scale(0.95) rotate(215deg) rotate3d(-1, -1, 1, -60deg);
+      }
+    }
+
+    @media (max-width: 980px) {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 </style>
@@ -133,7 +264,7 @@
   {% include header.html %}
 
   <main id="home">
-    <section id="hero">
+    <section id="hero" class="concept">
       <img src="{{ site.baseurl }}/images/hero_image.png" alt="" />
 
       <h2>A Wyld está em Perigo, e os Garou Lutam por Sua Última Chance</h2>
@@ -152,7 +283,7 @@
         {% for post in site.posts %}
 
         <a href="{{ site.baseurl }}/{{ post.slug }}">
-          <div class="tale">
+          <div class="link">
             <small>Capítulo {{ post.chapter }}</small>
             <h3>{{ post.title }}</h3>
           </div>
@@ -160,10 +291,86 @@
 
         {% endfor %}
       </div>
+
+      <img src="{{ site.baseurl }}/images/glowing_moon.png" alt="" />
+    </section>
+
+    <section id="sound" class="concept">
+      <img src="{{ site.baseurl }}/images/sound_image.png" alt="" />
+
+      <div class="title">
+        <h2>Filhos de Gaia</h2>
+        <small>Quando a Última Canção é um Grito de Guerra</small>
+      </div>
+      <p>
+        Esta não é apenas uma música. É um chamado ancestral, um uivo ecoando
+        nas ruínas de um mundo à beira do fim. "Filhos de Gaia" entoa a fúria
+        dos Garou, a dor da Wyld ferida e a coragem dos que ainda lutam — mesmo
+        quando a Wyrm parece vencer. Das florestas sagradas aos becos urbanos,
+        suas notas carregam o sangue, a glória e a maldição de quem nasceu para
+        morrer em batalha.
+      </p>
+
+      <audio controls>
+        <source
+          src="{{ site.baseurl }}/audios/filhos_de_gaia.mpeg"
+          type="audio/mpeg"
+        />
+        Seu navegador não suporte player de áudio
+      </audio>
+    </section>
+
+    <section id="about">
+      <h2>Sobre</h2>
+
+      <div class="pieces">
+        <p>
+          Nesta crônica sombria, você entrará no mundo dos Garou – guerreiros
+          bestiais condenados a lutar pela balança entre a humanidade e a
+          selvageria. Aqui, os lobisomens não são meras lendas: são os
+          defensores de Gaia, enfrentando a corrupção do Wyrm e os horrores do
+          Apocalipse que se aproxima.
+        </p>
+
+        <div class="pages">
+          <div class="link disable">
+            <h3>Personagens (breve)</h3>
+          </div>
+
+          <div class="link disable">
+            <h3>Conceitos (breve)</h3>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="team">
-      <img src="{{ site.baseurl }}/images/team.png" alt="" />
+      <img id="photo" src="{{ site.baseurl }}/images/poster_photo.jpg" alt="" />
+      <img
+        class="leaf one"
+        src="{{ site.baseurl }}/images/burnt_leaf.png"
+        alt=""
+      />
+      <img
+        class="leaf two"
+        src="{{ site.baseurl }}/images/burnt_leaf.png"
+        alt=""
+      />
+      <img
+        class="leaf three"
+        src="{{ site.baseurl }}/images/burnt_leaf.png"
+        alt=""
+      />
+      <img
+        class="leaf four"
+        src="{{ site.baseurl }}/images/burnt_leaf.png"
+        alt=""
+      />
+      <img
+        class="leaf five"
+        src="{{ site.baseurl }}/images/burnt_leaf.png"
+        alt=""
+      />
     </section>
   </main>
 
