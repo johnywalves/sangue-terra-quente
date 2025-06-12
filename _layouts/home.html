@@ -1,6 +1,6 @@
 {% include head.html %}
 
-<style type="text/css" media="screen">
+<style type="text/css">
   main {
     display: flex;
     flex-direction: column;
@@ -23,6 +23,7 @@
     border: 0.125rem var(--color-margin) solid;
     border-radius: 0.5rem;
     padding: 1.5rem 2rem;
+    min-width: 14rem;
 
     display: flex;
     flex-direction: column;
@@ -47,7 +48,7 @@
 
     &.disable {
       pointer-events: none;
-      opacity: 0.5;
+      opacity: 0.25;
     }
   }
 
@@ -86,6 +87,7 @@
 
     & img {
       z-index: 1;
+      height: calc(100% + 6rem);
       position: absolute;
       bottom: 0;
       right: calc(var(--margin-content-x) - 2rem);
@@ -143,8 +145,6 @@
   main section#tales {
     position: relative;
     padding: 2rem var(--margin-content-x) 12rem;
-
-    font-size: 1.25rem;
 
     display: flex;
     flex-direction: column;
@@ -251,6 +251,42 @@
         right: calc(var(--margin-content-x) + 2rem);
         transform: scale(0.95) rotate(215deg) rotate3d(-1, -1, 1, -60deg);
       }
+
+      &.six {
+        z-index: -1;
+        top: 10%;
+        left: 40%;
+        transform: scale(0.7) rotate(27deg) rotate3d(1, -1, 1, 60deg);
+        opacity: 0.75;
+        filter: blur(0.25rem);
+      }
+
+      &.seven {
+        z-index: -1;
+        top: 50%;
+        right: 18%;
+        transform: scale(0.6) rotate(82deg) rotate3d(1, -1, 1, 60deg);
+        opacity: 0.75;
+        filter: blur(0.25rem);
+      }
+
+      &.eight {
+        z-index: -1;
+        top: 20%;
+        left: 20%;
+        transform: scale(0.7) rotate(82deg) rotate3d(1, -1, 1, 60deg);
+        opacity: 0.75;
+        filter: blur(0.25rem);
+      }
+
+      &.nine {
+        z-index: -1;
+        bottom: 10%;
+        left: 40%;
+        transform: scale(0.7) rotate(-30deg) rotate3d(1, -1, 1, 50deg);
+        opacity: 0.75;
+        filter: blur(0.25rem);
+      }
     }
 
     @media (max-width: 980px) {
@@ -345,7 +381,7 @@
     </section>
 
     <section id="team">
-      <img id="photo" src="{{ site.baseurl }}/images/poster_photo.jpg" alt="" />
+      <img id="photo" src="{{ site.baseurl }}/images/poster_photo.png" alt="" />
       <img
         class="leaf one"
         src="{{ site.baseurl }}/images/burnt_leaf.png"
@@ -368,6 +404,26 @@
       />
       <img
         class="leaf five"
+        src="{{ site.baseurl }}/images/burnt_leaf.png"
+        alt=""
+      />
+      <img
+        class="leaf six"
+        src="{{ site.baseurl }}/images/burnt_leaf.png"
+        alt=""
+      />
+      <img
+        class="leaf seven"
+        src="{{ site.baseurl }}/images/burnt_leaf.png"
+        alt=""
+      />
+      <img
+        class="leaf eight"
+        src="{{ site.baseurl }}/images/burnt_leaf.png"
+        alt=""
+      />
+      <img
+        class="leaf nine"
         src="{{ site.baseurl }}/images/burnt_leaf.png"
         alt=""
       />

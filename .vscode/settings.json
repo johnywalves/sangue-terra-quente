@@ -1,16 +1,16 @@
 {
-      "editor.formatOnSave": true,
+  "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "cSpell.words": [
-        "Ágnes",
-        "bluesky",
-        "garou",
-        "garous",
-        "github",
-        "jekyll",
-        "johnywalves",
-        "Jonny",
-        "ragabash",
-        "theurge"
-    ]
+  "cSpell.words": [
+    "Ágnes",
+    "bluesky",
+    "garou",
+    "garous",
+    "github",
+    "jekyll",
+    "johnywalves",
+    "Jonny",
+    "ragabash",
+    "theurge"
+  ]
 }
