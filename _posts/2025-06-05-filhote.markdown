@@ -75,3 +75,5 @@ Usando a ressonância da alma, iniciei um canto de despedida. Todos se aproximar
 — Filho Ferido — Han respirou fundo, abaixou a cabeça em reverência e ergueu-a. — Caern Filhote Ferido.
 
 ![Banda tocando em um palco](./images/caern_ritual.jpg)
+
+{% include cinzas_de_gaia.html %}
