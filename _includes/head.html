@@ -5,9 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="theme-color" content="#991f1c" />
 
-  <title>
-    {{page.title}}{{ page.title != "" ? " | " : ""}}{{ site.title }}
-  </title>
+  <title>{{page.title}}{% if page.title %} | {% endif %}{{ site.title }}</title>
   <meta
     name="description"
     property="og:description"
