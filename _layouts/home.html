@@ -223,7 +223,7 @@
     & img#photo {
       margin: 5rem;
       width: min(75%, 30rem);
-      transform: rotate3d(-1, -1, 1, -55deg);
+      transform: var(--rotate-photo);
     }
 
     & img.leaf {
@@ -447,3 +447,62 @@
 
   {% include footer.html %}
 </body>
+
+<script>
+  const leafTransforms = [
+    { speed: 0.5, transform: "rotate3d(-1, -1, 1, -60deg)" },
+    { speed: 0.4, transform: "scale(0.75) rotate3d(1, -1, 1, 60deg)" },
+    {
+      speed: 0.7,
+      transform: "scale(0.8) rotate(-155deg) rotate3d(1, -1, 1, 60deg)",
+    },
+    {
+      speed: 0.3,
+      transform: "scale(0.65) rotate(-55deg) rotate3d(1, -1, 1, 60deg)",
+    },
+    {
+      speed: 0.6,
+      transform: "scale(0.95) rotate(215deg) rotate3d(-1, -1, 1, -60deg)",
+    },
+    {
+      speed: 0.2,
+      transform: "scale(0.7) rotate(27deg) rotate3d(1, -1, 1, 60deg)",
+    },
+    {
+      speed: 0.4,
+      transform: "scale(0.6) rotate(82deg) rotate3d(1, -1, 1, 60deg)",
+    },
+    {
+      speed: 0.4,
+      transform: "scale(0.7) rotate(82deg) rotate3d(1, -1, 1, 60deg)",
+    },
+    {
+      speed: 0.4,
+      transform: "scale(0.7) rotate(-30deg) rotate3d(1, -1, 1, 50deg)",
+    },
+  ];
+
+  function isVisible(el) {
+    const rect = el.getBoundingClientRect();
+    const heightScreen =
+      AbortSignal.innerHeight || document.documentElement.clientHeight;
+    return rect.top <= heightScreen;
+  }
+
+  window.addEventListener("scroll", function () {
+    const contentElement = document.getElementById("team");
+    if (isVisible(contentElement)) {
+      const backgroundElement = document.getElementById("photo");
+      const foregroundElements = document.querySelectorAll(".leaf");
+      const rect = contentElement.getBoundingClientRect();
+
+      const top = rect.top * -0.2;
+      backgroundElement.style.transform = `translateY(${top}px) var(--rotate-photo)`;
+
+      foregroundElements.forEach((el, idx) => {
+        const { speed, transform } = leafTransforms[idx];
+        el.style.transform = `translateY(${rect.top * speed}px) ${transform}`;
+      });
+    }
+  });
+</script>
