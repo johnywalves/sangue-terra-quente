@@ -1,4 +1,10 @@
 <head>
+  <meta charset="UTF-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="#991f1c" />
+
   <title>
     {{page.title}}{{ page.title != "" ? " | " : ""}}{{ site.title }}
   </title>
@@ -91,22 +97,14 @@
       --font-tale-h2: 3rem;
       --font-tale-h3: 2.5rem;
       --font-tale-p: 1.5rem;
-    }
 
-    @media (max-width: 1366px) {
-      :root {
+      @media (max-width: 1366px) {
         --margin-content-y: 3rem;
         --margin-content-x: 2rem;
       }
-    }
 
-    @media (max-width: 980px) {
-      :root {
-        --font-tale-h2: 3.5rem;
-        --font-tale-p: 2.5rem;
-
-        --font-tale-h2: 4rem;
-        --font-tale-h3: 3rem;
+      @media (max-width: 980px) {
+        --margin-content-x: 1rem;
       }
     }
 

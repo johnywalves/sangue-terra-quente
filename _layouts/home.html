@@ -1,22 +1,22 @@
 {% include head.html %}
 
 <style type="text/css">
+  & a {
+    font-size: var(--font-tale-p);
+  }
+
+  & h2 {
+    font-size: var(--font-tale-h2);
+    text-align: center;
+  }
+
+  & p {
+    font-size: var(--font-tale-p);
+  }
+
   main {
     display: flex;
     flex-direction: column;
-
-    & a {
-      font-size: var(--font-tale-p);
-    }
-
-    & h2 {
-      font-size: var(--font-tale-h2);
-      text-align: center;
-    }
-
-    & p {
-      font-size: var(--font-tale-p);
-    }
   }
 
   & div.link {
@@ -48,7 +48,7 @@
 
     &.disable {
       pointer-events: none;
-      opacity: 0.25;
+      opacity: 0.4;
     }
   }
 
@@ -64,6 +64,19 @@
     flex-direction: column;
     justify-content: center;
     gap: 1.5rem;
+
+    & div.title {
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+
+      width: 100%;
+
+      & small {
+        font-size: 1.5rem;
+        font-weight: 300;
+      }
+    }
 
     & h2 {
       z-index: 2;
@@ -84,15 +97,21 @@
       }
     }
 
-    & img {
+    & div.illustrator {
       z-index: 1;
-      height: calc(100% + 6rem);
       position: absolute;
       bottom: 0;
       right: calc(var(--margin-content-x) - 2rem);
 
+      height: calc(100% + 6rem);
+      max-width: 100%;
+
       @media (max-width: 980px) {
         opacity: 0.5;
+      }
+
+      & img {
+        height: 100%;
       }
     }
   }
@@ -102,17 +121,7 @@
     align-items: flex-end;
 
     & div.title {
-      z-index: 2;
-      display: flex;
-      flex-direction: column;
       align-items: flex-end;
-
-      width: 100%;
-
-      & small {
-        font-size: 1.5rem;
-        font-weight: 300;
-      }
     }
 
     & h2 {
@@ -136,7 +145,7 @@
       z-index: 2;
     }
 
-    & img {
+    & div.illustrator {
       left: calc(var(--margin-content-x) - 2rem);
     }
   }
@@ -300,9 +309,14 @@
 
   <main id="home">
     <section id="hero" class="concept">
-      <img src="{{ site.baseurl }}/images/hero_image.png" alt="" />
+      <div class="illustrator">
+        <img src="{{ site.baseurl }}/images/hero_image.png" alt="" />
+      </div>
 
-      <h2>A Wyld está em Perigo, e os Garou Lutam por Sua Última Chance</h2>
+      <div class="title">
+        <h2>A Wyld está em Perigo</h2>
+        <small>e os Garou Lutam por Sua Última Chance</small>
+      </div>
       <p>
         De policiais à margem da lei a guias comunitários traídos pelo sistema,
         de políticos corruptos a vocalistas que canalizam a fúria em gritos de
@@ -331,7 +345,9 @@
     </section>
 
     <section id="sound" class="concept">
-      <img src="{{ site.baseurl }}/images/sound_image.png" alt="" />
+      <div class="illustrator">
+        <img src="{{ site.baseurl }}/images/sound_image.png" alt="" />
+      </div>
 
       <div class="title">
         <h2>Filhos de Gaia</h2>
