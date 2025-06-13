@@ -10,12 +10,12 @@
     }
 
     & h2 {
-      font-size: 3rem;
+      font-size: var(--font-tale-h2);
       text-align: center;
     }
 
     & p {
-      font-size: 1.5rem;
+      font-size: var(--font-tale-p);
     }
   }
 
@@ -39,7 +39,7 @@
     }
 
     & h3 {
-      font-size: 2.5rem;
+      font-size: var(--font-tale-h3);
     }
 
     & small {
@@ -68,7 +68,6 @@
     & h2 {
       z-index: 2;
       width: 60%;
-      font-size: 3rem;
       text-align: left;
 
       @media (max-width: 980px) {
@@ -144,7 +143,7 @@
 
   main section#tales {
     position: relative;
-    padding: 2rem var(--margin-content-x) 12rem;
+    padding: var(--margin-content-y) var(--margin-content-x) 12rem;
 
     display: flex;
     flex-direction: column;
@@ -179,7 +178,7 @@
   }
 
   main section#about {
-    padding: 2rem var(--margin-content-x);
+    padding: var(--margin-content-y) var(--margin-content-x);
 
     display: flex;
     flex-direction: column;
