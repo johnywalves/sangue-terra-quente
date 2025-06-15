@@ -1,11 +1,84 @@
-<audio controls>
-  <source
-    src="{{ site.baseurl }}/audios/olho_da_tempestade.ogg"
-    type="audio/ogg"
-  />
-  <source
-    src="{{ site.baseurl }}/audios/olho_da_tempestade.mpeg"
-    type="audio/mpeg"
-  />
-  Seu navegador não suporte player de áudio
-</audio>
+<div class="music">
+  {% if include.title == "True" %}
+  <h4>O Olho da Tempestade</h4>
+  {% endif %} {% if include.full_credits == "True" %}
+  <small>Raoul Jeger, Agnes Jeger, Richard Souza e Wellington Oliveira</small>
+  {% endif %}
+
+  <audio controls>
+    <source
+      src="{{ site.baseurl }}/audios/olho_da_tempestade.ogg"
+      type="audio/ogg"
+    />
+    <source
+      src="{{ site.baseurl }}/audios/olho_da_tempestade.mpeg"
+      type="audio/mpeg"
+    />
+    Seu navegador não suporte player de áudio
+  </audio>
+
+  {% if include.lyrics == "True" %}
+
+  <details>
+    <summary>Letra</summary>
+
+    <p>[Verso 1]</p>
+    <p>O sangue queima sob a lua cheia,</p>
+    <p>Círculo traçado com cinzas e dor.</p>
+    <p>Nos ossos dançam memórias antigas,</p>
+    <p>Rugem os mortos, chamando o terror.</p>
+    <br /><br />
+    <p>[Pré-Refrão]</p>
+    <p>No véu entre mundos, ergue-se a chama,</p>
+    <p>O espírito uiva — o tempo se inflama!</p>
+    <br /><br />
+    <p>[Refrão]</p>
+    <p>No olho da tempestade eu vejo —</p>
+    <p>Futuro, ruína, glória e morte!</p>
+    <p>Relâmpagos rasgam o segredo,</p>
+    <p>E o destino ruge com sua sorte!</p>
+    <p>No olho da tempestade...</p>
+    <p>Sou visão, sou garra, sou corte!</p>
+    <br /><br />
+    <p>[Verso 2]</p>
+    <p>O tambor ecoa, pulsa a Verdade,</p>
+    <p>Raízes gritam sob a pele do chão.</p>
+    <p>A Wyrm espreita, camuflada em vaidade,</p>
+    <p>Mas o presságio corta como um trovão.</p>
+    <br /><br />
+    <p>[Pré-Refrão]</p>
+    <p>Tomo o fôlego do tempo quebrado,</p>
+    <p>No espelho da Lua, o caos selado!</p>
+    <br /><br />
+    <p>[Refrão]</p>
+    <p>No olho da tempestade eu vejo —</p>
+    <p>Futuro, ruína, glória e morte!</p>
+    <p>Relâmpagos rasgam o segredo,</p>
+    <p>E o destino ruge com sua sorte!</p>
+    <p>No olho da tempestade...</p>
+    <p>Sou visão, sou garra, sou corte!</p>
+    <br /><br />
+    <p>[Ponte – sussurrada e crescente, como um mantra tribal]</p>
+    <p>Espírito Ancestral... guia a visão...</p>
+    <p>Mostra o caminho... no trovão...</p>
+    <p>Línguas de fogo... espelho quebrado...</p>
+    <p>Um Rei que cai... um Traidor marcado...</p>
+    <br /><br />
+    <p>
+      [Solo de guitarra – caótico e melódico, como o rasgo de um mundo se
+      partindo]
+    </p>
+    <br /><br />
+    <p>[Último Refrão – gritado com fúria ritualística]</p>
+    <p>No olho da tempestade eu vejo —</p>
+    <p>Futuro, ruína, glória e morte!</p>
+    <p>Relâmpagos rasgam o segredo,</p>
+    <p>E o destino ruge com sua sorte!</p>
+    <p>No olho da tempestade...</p>
+    <p>Eu sou a voz da próxima corte!</p>
+    <br /><br />
+    <p>[Final – fade out com tambores e sussurros de ventos]</p>
+    <p>...o tempo sangra no céu… o tempo sangra no céu…</p>
+  </details>
+  {% endif %}
+</div>

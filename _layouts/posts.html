@@ -46,8 +46,19 @@
     text-align: center;
   }
 
-  audio {
-    margin: 0 auto;
+  & div.music {
+    display: flex;
+    flex-direction: column;
+    padding: 0 var(--margin-content-x);
+
+    & small {
+      font-size: var(--font-tale-p);
+      font-weight: 300;
+    }
+
+    & audio {
+      margin: 1rem 0 0;
+    }
   }
 
   p:has(img) {

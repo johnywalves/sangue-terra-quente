@@ -1,77 +1,51 @@
 ---
-layout: info
-title: Músicas
+layout: artist
+title: Filhos de Gaia
 ---
 
-![Banda tocando em um palco](./images/filhos_de_gaia_cover_feature.jpg)
+## Filhos de Gaia
 
-## Filhos do Vento
+<small>Lobos na Tempestade, Canções na Guerra</small>
+
+Fundada pelo xamã e Theurge Raoul Jeger, os Filhos de Gaia são mais que uma banda — são guerreiros que transformam o rugido da Terra em metal cru. Inspirado por sua mentora e tia, Ada Jeger (uma lendária Garou caída em batalha), Raoul ergueu o grupo como um grito de resistência contra o Apocalipse que consome o mundo.
+
+Agora em sua segunda formação, a banda carrega o fogo da luta com **Agnes Jeger (bateria)**, **Richard Souza (guitarra principal)**, **Wellington Oliveira (baixo)** e **Raoul Jeger (vocal e segunda guitarra)**
+
+Seu som é uma horda de estilos: o núcleo é metal puro, mas cada integrante injeta sua herança — desde os tambores de guerra de Agnes até os solos nórdicos de Richard.
+
+### O Sangue da Terra Quente
+
+<small>9º Álbum | O Renascimento da Matilha</small>
+
+<div class="album">
+  <div class="cover">
+    <img
+      src="{{ site.baseurl }}/images/filhos_de_gaia_cover_feature.jpg"
+      alt='Um lobo marrom em fúria em meio em uma tempestade rodeado de símbolos arcanos rústicos em letras grandes do topo "Filhos de Gaia" e em baixo "O Sangue da Terra Quente"'
+    />
+  </div>
+
+  <div class="description">
+    <p>O primeiro trabalho da nova formação é um manifesto de dor e fúria sagrada. As letras falam de cicatrizes abertas, da luta contra a Espiral da Corrupção e da desesperança que rói até os mais fortes. Mas acima de tudo, é um chamado: "O fogo não se apaga enquanto um de nós respirar."</p>
+
+    <p class="quote">"Nós somos os dentes da Mãe. E nós não nos quebramos."<br/>
+    — Raoul Jeger, antes do show em Ruínas de Chicago-2023.</p>
+
+  </div>
+</div>
+
+<button onclick="playAudios()">Play All</button>
+
+{% include olho_da_tempestade.html title="True" full_credits="True" lyrics="True" %}
+
+#### Filhos do Vento
+
+<small>Agnes Jeger, Raoul Jeger, Richard Souza e Wellington Oliveira</small>
 
 {% include filhos_do_vento.html %}
 
-## Olho da Tempestade
+#### Cinzas de Gaia
 
-{% include olho_da_tempestade.html %}
-
-<details>
-  <summary>Details</summary>
-[Verso 1]
-O sangue queima sob a lua cheia,
-Círculo traçado com cinzas e dor.
-Nos ossos dançam memórias antigas,
-Rugem os mortos, chamando o terror.
-
-[Pré-Refrão]
-No véu entre mundos, ergue-se a chama,
-O espírito uiva — o tempo se inflama!
-
-[Refrão]
-No olho da tempestade eu vejo —
-Futuro, ruína, glória e morte!
-Relâmpagos rasgam o segredo,
-E o destino ruge com sua sorte!
-No olho da tempestade...
-Sou visão, sou garra, sou corte!
-
-[Verso 2]
-O tambor ecoa, pulsa a Verdade,
-Raízes gritam sob a pele do chão.
-A Wyrm espreita, camuflada em vaidade,
-Mas o presságio corta como um trovão.
-
-[Pré-Refrão]
-Tomo o fôlego do tempo quebrado,
-No espelho da Lua, o caos selado!
-
-[Refrão]
-No olho da tempestade eu vejo —
-Futuro, ruína, glória e morte!
-Relâmpagos rasgam o segredo,
-E o destino ruge com sua sorte!
-No olho da tempestade...
-Sou visão, sou garra, sou corte!
-
-[Ponte – sussurrada e crescente, como um mantra tribal]
-Espírito Ancestral... guia a visão...
-Mostra o caminho... no trovão...
-Línguas de fogo... espelho quebrado...
-Um Rei que cai... um Traidor marcado...
-
-[Solo de guitarra – caótico e melódico, como o rasgo de um mundo se partindo]
-
-[Último Refrão – gritado com fúria ritualística]
-No olho da tempestade eu vejo —
-Futuro, ruína, glória e morte!
-Relâmpagos rasgam o segredo,
-E o destino ruge com sua sorte!
-No olho da tempestade...
-Eu sou a voz da próxima corte!
-
-[Final – fade out com tambores e sussurros de ventos]
-...o tempo sangra no céu… o tempo sangra no céu…
-
-</details>
-
-## Cinzas de Gaia
+<small>Wellington Oliveira, Agnes Jeger, Raoul Jeger e Richard Souza</small>
 
 {% include cinzas_de_gaia.html %}
