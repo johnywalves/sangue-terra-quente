@@ -183,6 +183,11 @@
   const audioElements = document.querySelectorAll("audio");
   let currentAudioIndex = 0;
 
+  function playNext() {
+    currentAudioIndex++;
+    playAudio(currentAudioIndex);
+  }
+
   function playAudios() {
     if (buttonElement.innerHTML === playContent) {
       buttonElement.innerHTML = pauseContent;
@@ -199,12 +204,10 @@
 
       if (!audioElement.paused) {
         audioElement.pause();
+        audioElement.removeEventListener("ended", playNext);
       } else {
         audioElement.play();
-        audioElement.addEventListener("ended", function () {
-          currentAudioIndex++;
-          playAudio(currentAudioIndex);
-        });
+        audioElement.addEventListener("ended", playNext);
       }
     }
   }
