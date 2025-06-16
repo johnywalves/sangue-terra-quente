@@ -30,6 +30,7 @@
     border-radius: 0.5rem;
     padding: 1.5rem 2rem;
     min-width: 14rem;
+    background-color: var(--color-background-transparent);
 
     display: flex;
     flex-direction: column;
@@ -96,6 +97,15 @@
       }
     }
 
+    & div.description {
+      z-index: 2;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: var(--font-tale-p);
+    }
+
     & p {
       z-index: 2;
       width: 65%;
@@ -160,7 +170,25 @@
     }
   }
 
-  main section#tales {
+  main section#about {
+    & div.illustrator {
+      right: 1rem;
+
+      @media (max-width: 980px) {
+        right: 0;
+      }
+    }
+
+    & p {
+      width: 55%;
+
+      @media (max-width: 980px) {
+        width: 100%;
+      }
+    }
+  }
+
+  main section.linkList {
     position: relative;
     overflow: hidden;
     padding: var(--margin-content-y) var(--margin-content-x) 12rem;
@@ -169,7 +197,7 @@
     flex-direction: column;
     gap: 4rem;
 
-    & div#collection {
+    & div.collection {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -189,7 +217,7 @@
       z-index: -1;
       position: absolute;
       bottom: 0;
-      right: calc(var(--margin-content-x) - 2rem);
+      right: calc(var(--margin-content-x) - 1rem);
 
       @media (max-width: 980px) {
         opacity: 0.5;
@@ -197,34 +225,13 @@
     }
   }
 
-  main section#about {
-    padding: var(--margin-content-y) var(--margin-content-x);
-
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-
-    & div.pieces {
-      display: grid;
-      grid-template-columns: 1.5fr 1fr;
-      align-items: flex-start;
-      gap: 4rem;
-
-      @media (max-width: 980px) {
-        grid-template-columns: 1fr;
-      }
-
-      & div.description {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-      }
-
-      & div.pages {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-      }
+  main section#elements {
+    & img {
+      height: 100%;
+      width: fit-content;
+      bottom: 0;
+      left: calc(var(--margin-content-x) - 2rem);
+      opacity: 0.5;
     }
   }
 
@@ -344,9 +351,9 @@
       </p>
     </section>
 
-    <section id="tales">
+    <section id="tales" class="linkList">
       <h2>Crônica</h2>
-      <div id="collection">
+      <div class="collection">
         {% for post in site.posts %}
 
         <a href="{{ site.baseurl }}/{{ post.slug }}">
@@ -383,54 +390,70 @@
       {% include filhos_do_vento.html %}
     </section>
 
-    <section id="about">
-      <h2>Sobre</h2>
+    <section id="elements" class="linkList">
+      <h2>Ambiente</h2>
+      <div class="pages collection">
+        <a href="{{ site.baseurl }}/filhos-de-gaia">
+          <div class="link">
+            <small>Matilha</small>
+            <h3>Filhos de Gaia</h3>
+          </div>
+        </a>
 
-      <div class="pieces">
-        <div class="description">
-          <p>
-            O Sangue da Terra Quente é uma crônica intensa de Lobisomem: O
-            Apocalipse – 5ª Edição ambientada em São José do Rio Preto-SP.
-            Criada por Gui Batista, o
-            <a href="https://linktr.ee/capivararpgista" target="_blank"
-              >CapivaraRPGista</a
-            >, esta jornada trás, o calor da cidade que ecoa o fervor da guerra
-            espiritual. Após a queda de um antigo caern, um novo grupo de jovens
-            Garous é convocado para purificar as feridas da terra e restaurar a
-            esperança de Gaia.
-          </p>
-          <p>
-            Vivendo entre becos, parques e centros urbanos tomados pelo concreto
-            e pelo consumo, essa alcateia precisa enfrentar espíritos
-            corrompidos, segredos ancestrais, alianças perigosas e a própria dor
-            da transformação. A cidade pulsa sob os pés deles — entre o Recinto
-            de Exposições e a represa municipal, entre os ecos urbanos e o
-            silêncio da Umbra.
-          </p>
-          <p>
-            A campanha mistura ação sobrenatural, crítica social e
-            espiritualidade selvagem, com personagens marcantes, com os corações
-            cheios de Fúria e a presença constante da Wyrm, que contamina até as
-            intenções mais puras. Aqui, o sangue é o preço da mudança. E a
-            Terra, mesmo ferida, ainda sussurra seus segredos.
-          </p>
+        <div class="link disable">
+          <small>breve</small>
+          <h3>Personagens</h3>
         </div>
 
-        <div class="pages">
-          <a href="{{ site.baseurl }}/filhos-de-gaia">
-            <div class="link">
-              <h3>Filhos de Gaia</h3>
-            </div>
-          </a>
-
-          <div class="link disable">
-            <h3>Personagens (breve)</h3>
-          </div>
-
-          <div class="link disable">
-            <h3>Conceitos (breve)</h3>
-          </div>
+        <div class="link disable">
+          <small>breve</small>
+          <h3>Conceitos</h3>
         </div>
+      </div>
+
+      <img src="{{ site.baseurl }}/images/wolf_moon.jpg" alt="" />
+    </section>
+
+    <section id="about" class="concept">
+      <div class="illustrator">
+        <img src="{{ site.baseurl }}/images/batista_1.png" alt="" />
+      </div>
+
+      <div class="title">
+        <h2>Sobre</h2>
+        <small>
+          O Sangue da Terra Quente é uma crônica intensa<br />cheia de Fúria e
+          espiritualidade selvagem
+        </small>
+      </div>
+
+      <div class="description">
+        <p>
+          O Sangue da Terra Quente é uma crônica intensa de Lobisomem: O
+          Apocalipse – 5ª Edição ambientada em São José do Rio Preto-SP. Criada
+          por Gui Batista, o
+          <a href="https://linktr.ee/capivararpgista" target="_blank"
+            >CapivaraRPGista</a
+          >, esta jornada trás, o calor da cidade que ecoa o fervor da guerra
+          espiritual. Após a queda de um antigo caern, um novo grupo de jovens
+          Garous é convocado para purificar as feridas da terra e restaurar a
+          esperança de Gaia.
+        </p>
+        <p>
+          Vivendo entre becos, parques e centros urbanos tomados pelo concreto e
+          pelo consumo, essa alcateia precisa enfrentar espíritos corrompidos,
+          segredos ancestrais, alianças perigosas e a própria dor da
+          transformação. A cidade pulsa sob os pés deles — entre o Recinto de
+          Exposições e a represa municipal, entre os ecos urbanos e o silêncio
+          da Umbra.
+        </p>
+        <p>
+          A campanha mistura ação sobrenatural, crítica social e espiritualidade
+          selvagem, com personagens marcantes, com os corações cheios de Fúria e
+          a presença constante da Wyrm, que contamina até as intenções mais
+          puras. Aqui, o sangue é o preço da mudança. E a Terra, mesmo ferida,
+          ainda sussurra seus segredos.
+        </p>
       </div>
     </section>
 
