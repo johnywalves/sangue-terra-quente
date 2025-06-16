@@ -23,18 +23,17 @@ email: contato@johnywalves.com.br
 keywords: Lobisomem O Apocalipse, Werewolf The Apocalypse, RPG, World of Darkness, histórias de RPG, crônicas de RPG, Garou, Wyrm, Weaver, Wyld, histórias de lobisomem
 description: >- # this means to ignore newlines until "baseurl:"
   Um acervo de crônicas de Lobisomem: O Apocalipse, onde mestres e 
-  jogadores compartilham suas campanhas, derrotas e glórias Garou. 
+  jogadores compartilham suas campanhas, derrotas e glórias Garou.
   Explore histórias do Wyrm, Weaver e Wyld em um mundo à beira do fim.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sanguequente.art" # the base hostname & protocol for your site
 bluesky_username: johnywalves
-github_username:  johnywalves
+github_username: johnywalves
 
 # Build settings
 permalink: ":slug"
 plugins:
   - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

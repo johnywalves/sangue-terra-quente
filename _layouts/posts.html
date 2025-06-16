@@ -49,15 +49,30 @@
   & div.music {
     display: flex;
     flex-direction: column;
-    padding: 0 var(--margin-content-x);
+    padding: var(--margin-content-y) var(--margin-content-x);
+    background: var(--gradient-music);
+
+    & h4 {
+      font-size: var(--font-tale-h4);
+    }
 
     & small {
-      font-size: var(--font-tale-p);
+      font-size: 1.25rem;
       font-weight: 300;
+
+      &:hover {
+        font-weight: 700;
+      }
     }
 
     & audio {
       margin: 1rem 0 0;
+    }
+
+    a,
+    a:hover,
+    a:visited {
+      color: var(--color-text);
     }
   }
 

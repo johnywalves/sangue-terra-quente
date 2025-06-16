@@ -1,4 +1,12 @@
 <div class="music">
+  {% if include.credits == "True" %}
+  <a href="{{ site.baseurl }}/filhos-de-gaia"> <small>Filhos de Gaia</small></a>
+  {% endif %} {% if include.title == "True" %}
+  <h4>Filhos do Vento 🍃</h4>
+  {% endif %} {% if include.full_credits == "True" %}
+  <small>Agnes Jeger, Raoul Jeger, Richard Souza e Wellington Oliveira</small>
+  {% endif %}
+
   <audio controls>
     <source
       src="{{ site.baseurl }}/audios/filhos_do_vento.ogg"

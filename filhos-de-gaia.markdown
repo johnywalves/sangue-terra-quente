@@ -1,13 +1,14 @@
 ---
 layout: artist
 title: Filhos de Gaia
+thumbnail: https://sanguequente.art/images/filhos_de_gaia_cover.jpg
 ---
 
 ## Filhos de Gaia
 
 <small>Lobos na Tempestade, Canções na Guerra</small>
 
-Fundada pelo xamã e Theurge Raoul Jeger, os Filhos de Gaia são mais que uma banda — são guerreiros que transformam o rugido da Terra em metal cru. Inspirado por sua mentora e tia, Ada Jeger (uma lendária Garou caída em batalha), Raoul ergueu o grupo como um grito de resistência contra o Apocalipse que consome o mundo.
+Fundada pelo xamã e Theurge Raoul Jeger, os Filhos de Gaia são mais que uma banda — são guerreiros que transformam o rugido da Terra em metal cru. Inspirado por sua mentora e tia, Ada Jeger (uma lendária Garou ferida em batalha), Raoul ergueu o grupo como um grito de resistência contra o Apocalipse que consome o mundo.
 
 Agora em sua segunda formação, a banda carrega o fogo da luta com **Agnes Jeger (bateria)**, **Richard Souza (guitarra principal)**, **Wellington Oliveira (baixo)** e **Raoul Jeger (vocal e segunda guitarra)**
 
@@ -34,18 +35,22 @@ Seu som é uma horda de estilos: o núcleo é metal puro, mas cada integrante in
   </div>
 </div>
 
-<button onclick="playAudios()">Play All</button>
+<div class="playAll">
+  <button onclick="playAudios()">
+    <div class="arrow-right"></div>
+  </button>
+  <div class="summary">
+    <p>Filhos de Gaia - O Sangue da Terra Quente</p>
+    <small>Tocar album</small>
+  </div>
+</div>
 
 {% include olho_da_tempestade.html title="True" full_credits="True" lyrics="True" %}
 
-#### Filhos do Vento
+{% include filhos_do_vento.html title="True" full_credits="True" %}
 
-<small>Agnes Jeger, Raoul Jeger, Richard Souza e Wellington Oliveira</small>
+{% include sangue_no_espelho_umbra.html title="True" full_credits="True" %}
 
-{% include filhos_do_vento.html %}
+{% include apice_da_furia.html title="True" full_credits="True" %}
 
-#### Cinzas de Gaia
-
-<small>Wellington Oliveira, Agnes Jeger, Raoul Jeger e Richard Souza</small>
-
-{% include cinzas_de_gaia.html %}
+{% include cinzas_de_gaia.html title="True" full_credits="True" %}

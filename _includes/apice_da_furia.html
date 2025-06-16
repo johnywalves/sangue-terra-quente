@@ -1,0 +1,21 @@
+<div class="music">
+  {% if include.credits == "True" %}
+  <a href="{{ site.baseurl }}/filhos-de-gaia"> <small>Filhos de Gaia</small></a>
+  {% endif %} {% if include.title == "True" %}
+  <h4>Ápice da Fúria ❤️‍🔥</h4>
+  {% endif %} {% if include.full_credits == "True" %}
+  <small>Raoul Jeger, Agnes Jeger, Richard Souza e Wellington Oliveira</small>
+  {% endif %}
+
+  <audio controls>
+    <source
+      src="{{ site.baseurl }}/audios/apice_da_furia.ogg"
+      type="audio/ogg"
+    />
+    <source
+      src="{{ site.baseurl }}/audios/apice_da_furia.mpeg"
+      type="audio/mpeg"
+    />
+    Seu navegador não suporte player de áudios
+  </audio>
+</div>

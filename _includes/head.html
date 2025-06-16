@@ -1,3 +1,8 @@
+{% assign title = page.title %} {% if page.title %} {% assign title = title |
+append: " | " %} {% endif %} {% assign title = title | append: site.title %} {%
+assign thumbnail = {{ site.baseurl }}/images/thumbnail.jpg %} {% if
+page.thumbnail %} {% assign thumbnail = page.thumbnail %} {% endif %}
+
 <head>
   <meta charset="UTF-8" />
   <meta name="robots" content="index, follow" />
@@ -5,36 +10,30 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="theme-color" content="#991f1c" />
 
-  <title>{{page.title}}{% if page.title %} | {% endif %}{{ site.title }}</title>
+  <title>{{ title }}</title>
   <meta
     name="description"
     property="og:description"
-    content="{{site.description}}"
+    content="{{ site.description }}"
   />
-  <meta name="keywords" content="{{page.keywords}}" />
+  <meta name="keywords" content="{{ page.keywords }}" />
   <meta
     name="image"
     property="og:image"
     itemprop="image"
-    content="{{ site.baseurl }}/images/thumbnail.jpg"
+    content="{{ thumbnail }}"
   />
   <meta name="type" property="og:type" content="website" />
   <meta name="url" property="og:url" content="{{page.url}}" />
-  <meta
-    name="site_name"
-    property="og:site_name"
-    content="{{page.title}} | {{ site.title }}"
-  />
+  <meta name="site_name" property="og:site_name" content="{{ title }}" />
+
   <meta name="locale" property="og:locale" content="pt_BR" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:url" content="{{page.url}}" />
-  <meta name="twitter:title" content="{{page.title}} | {{ site.title }}" />
+  <meta name="twitter:url" content="{{ site.baseurl }}/{{page.url}}" />
+  <meta name="twitter:title" content="{{ title }}" />
   <meta name="twitter:description" content="{{page.description}}" />
-  <meta
-    name="twitter:image"
-    content="{{ site.baseurl }}/images/thumbnail.jpg"
-  />
+  <meta name="twitter:image" content="{{ thumbnail }}" />
 
   <link
     rel="icon"
@@ -84,6 +83,11 @@
       --gradient-sound: linear-gradient(
         225deg,
         var(--color-background) 25%,
+        var(--color-primary-pure) 100%
+      );
+      --gradient-music: linear-gradient(
+        225deg,
+        var(--color-background) 12.5%,
         var(--color-primary-pure) 100%
       );
       --rotate-photo: rotate3d(-1, -1, 1, -55deg);

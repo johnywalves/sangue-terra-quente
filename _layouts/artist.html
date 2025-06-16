@@ -103,6 +103,66 @@
         padding: 0 1rem;
       }
     }
+
+    & div.playAll {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1.5rem;
+      padding: 1rem var(--margin-content-x) 0;
+
+      & button {
+        border: none;
+        appearance: none;
+        outline: none;
+        background-color: var(--color-text);
+
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.25rem;
+
+        height: 3.5rem;
+        width: 3.5rem;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &:hover {
+          background-color: var(--color-primary-pure);
+        }
+
+        & div.arrow-right {
+          flex-shrink: 0;
+          width: 0;
+          height: 0;
+          border-top: 0.75rem solid transparent;
+          border-bottom: 0.75rem solid transparent;
+          border-left: 1.25rem solid var(--color-background);
+        }
+
+        & div.pause {
+          flex-shrink: 0;
+          width: 0.5rem;
+          height: 1.5rem;
+          background-color: var(--color-background);
+        }
+      }
+
+      & div.summary {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & p {
+          margin: 0;
+        }
+
+        & small {
+          font-size: 100%;
+        }
+      }
+    }
   }
 </style>
 
@@ -115,21 +175,37 @@
 </body>
 
 <script>
+  const playContent = '<div class="arrow-right"></div>';
+  const pauseContent = '<div class="pause"></div><div class="pause"></div>';
+  const buttonElement = document.querySelector("button");
+  buttonElement.innerHTML = playContent;
+
   const audioElements = document.querySelectorAll("audio");
   let currentAudioIndex = 0;
 
   function playAudios() {
+    if (buttonElement.innerHTML === playContent) {
+      buttonElement.innerHTML = pauseContent;
+    } else {
+      buttonElement.innerHTML = playContent;
+    }
+
     playAudio(currentAudioIndex);
   }
 
   function playAudio(index) {
     if (index < audioElements.length) {
       const audioElement = audioElements[index];
-      audioElement.play();
-      audioElement.addEventListener("ended", function () {
-        currentAudioIndex++;
-        playAudio(currentAudioIndex);
-      });
+
+      if (!audioElement.paused) {
+        audioElement.pause();
+      } else {
+        audioElement.play();
+        audioElement.addEventListener("ended", function () {
+          currentAudioIndex++;
+          playAudio(currentAudioIndex);
+        });
+      }
     }
   }
 </script>

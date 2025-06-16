@@ -1,0 +1,21 @@
+<div class="music">
+  {% if include.credits == "True" %}
+  <a href="{{ site.baseurl }}/filhos-de-gaia"> <small>Filhos de Gaia</small></a>
+  {% endif %} {% if include.title == "True" %}
+  <h4>Sangue no Espelho da Umbra🩸🪞</h4>
+  {% endif %} {% if include.full_credits == "True" %}
+  <small>Richard Souza, Raoul Jeger, Agnes Jeger e Wellington Oliveira</small>
+  {% endif %}
+
+  <audio controls>
+    <source
+      src="{{ site.baseurl }}/audios/sangue_no_espelho_umbra.ogg"
+      type="audio/ogg"
+    />
+    <source
+      src="{{ site.baseurl }}/audios/sangue_no_espelho_umbra.mpeg"
+      type="audio/mpeg"
+    />
+    Seu navegador não suporte player de áudios
+  </audio>
+</div>

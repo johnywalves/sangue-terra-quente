@@ -1,4 +1,4 @@
 ---
-layout: characters
+layout: info
 title: Personagens
 ---
