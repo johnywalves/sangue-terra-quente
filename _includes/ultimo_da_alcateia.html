@@ -1,0 +1,21 @@
+<div class="music">
+  {% if include.credits == "True" %}
+  <a href="{{ site.baseurl }}/filhos-de-gaia"> <small>Filhos de Gaia</small></a>
+  {% endif %} {% if include.title == "True" %}
+  <h4>O Último da Alcateia🌒</h4>
+  {% endif %} {% if include.full_credits == "True" %}
+  <small>Raoul Jeger, Agnes Jeger, Richard Souza e Wellington Oliveira</small>
+  {% endif %}
+
+  <audio controls>
+    <source
+      src="{{ site.baseurl }}/audios/ultimo_da_alcateia.ogg"
+      type="audio/ogg"
+    />
+    <source
+      src="{{ site.baseurl }}/audios/ultimo_da_alcateia.mpeg"
+      type="audio/mpeg"
+    />
+    Seu navegador não suporte player de áudios
+  </audio>
+</div>

@@ -5,6 +5,10 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+
+    p {
+      text-indent: calc(var(--font-tale-p) * 2);
+    }
   }
 
   picture.feature {
@@ -84,14 +88,15 @@
 
     padding: 5rem var(--margin-content-x);
 
-    & img {
-      width: 80%;
-    }
-
     @media (max-width: 980px) {
       padding: 5rem 0;
+    }
 
-      & img {
+    & img {
+      max-width: 80%;
+
+      @media (max-width: 980px) {
+        max-width: 100%;
         width: 100%;
       }
     }

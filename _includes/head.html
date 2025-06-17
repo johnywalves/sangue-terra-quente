@@ -95,7 +95,7 @@ page.thumbnail %} {% assign thumbnail = page.thumbnail %} {% endif %}
       --rotate-photo: rotate3d(-1, -1, 1, -55deg);
 
       --size-header: 8rem;
-      --size-footer: 15rem;
+      --size-footer: 12rem;
       --margin-content-x: calc((100vw - 1366px + 4rem) / 2);
       --margin-content-y: 1.5rem;
 
@@ -144,23 +144,70 @@ page.thumbnail %} {% assign thumbnail = page.thumbnail %} {% endif %}
       background: var(--color-background);
       background: linear-gradient(
         180deg,
-        var(--color-background) 75%,
+        #00000000 60%,
         var(--color-primary-pure) 100%
       );
 
       min-height: var(--size-footer);
-      padding: 1.5rem var(--margin-content-x);
+      margin-top: 5rem;
+      padding: 1.5rem var(--margin-content-x) 2.5rem;
 
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 1rem;
+      gap: 3rem;
 
-      font-size: 1.25rem;
+      & div.logos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+      }
+
+      & div.credits {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+      }
+
+      & img,
+      & p {
+        filter: saturate(0);
+        transition: filter 0.25s;
+
+        &:hover {
+          filter: saturate(1);
+        }
+      }
 
       & p {
+        width: 100%;
         text-align: center;
+        font-size: 1.25rem;
+        font-weight: 300;
+        opacity: 0.75;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      & a,
+      & a:hover,
+      & a:visited {
+        color: var(--color-text);
+
+        & strong {
+          font-weight: 500;
+        }
+      }
+
+      & a:hover strong {
+        color: #e0138c;
       }
     }
   </style>

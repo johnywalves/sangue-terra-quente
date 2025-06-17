@@ -13,31 +13,35 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-  }
 
-  h2 {
-    padding: 0 var(--margin-content-x);
-    font-size: var(--font-tale-h2);
-  }
+    & p:not(:has(code)) {
+      line-height: 150%;
+      text-indent: calc(var(--font-tale-p) * 2);
+    }
 
-  p {
-    padding: 0 var(--margin-content-x);
-    line-height: 150%;
-    text-align: justify;
-    font-size: var(--font-tale-p);
-  }
+    & p:has(code) {
+      line-height: 125%;
+    }
 
-  p:not(:has(code)) {
-    line-height: 150%;
-    text-indent: calc(var(--font-tale-p) * 2);
-  }
+    & h2 {
+      padding: 2.5rem var(--margin-content-x) 0;
+      font-size: var(--font-tale-h2);
+    }
 
-  p:has(code) {
-    line-height: 125%;
-  }
+    & p {
+      padding: 0 var(--margin-content-x);
+      line-height: 150%;
+      text-align: justify;
+      font-size: var(--font-tale-p);
+    }
 
-  img {
-    margin: 0 auto;
+    & img {
+      margin: 0 auto;
+
+      @media (max-width: 980px) {
+        width: 100%;
+      }
+    }
   }
 </style>
 
@@ -67,7 +71,7 @@
       </strong>
     </p>
     <p>
-      <code>Prossiga apenas se possuir clearance válido.</code>
+      <code>Prossiga apenas se possuir <em>clearance</em> válido.</code>
     </p>
 
     <h2>Dossiê Garou: {{ page.title }}</h2>

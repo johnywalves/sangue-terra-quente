@@ -49,8 +49,12 @@ Seu som é uma horda de estilos: o núcleo é metal puro, mas cada integrante in
 
 {% include filhos_do_vento.html title="True" full_credits="True" %}
 
+{% include ultimo_da_alcateia.html title="True" full_credits="True" %}
+
 {% include sangue_no_espelho_umbra.html title="True" full_credits="True" %}
 
 {% include apice_da_furia.html title="True" full_credits="True" %}
 
 {% include cinzas_de_gaia.html title="True" full_credits="True" %}
+
+{% include furia_de_mil_guarras.html title="True" full_credits="True" %}
