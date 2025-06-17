@@ -1,0 +1,79 @@
+{% include head.html %}
+
+<style type="text/css">
+  body {
+    background-image: url("{{ site.baseurl }}/images/dossie_background.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-position-y: 3rem;
+    background-attachment: fixed;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  h2 {
+    padding: 0 var(--margin-content-x);
+    font-size: var(--font-tale-h2);
+  }
+
+  p {
+    padding: 0 var(--margin-content-x);
+    line-height: 150%;
+    text-align: justify;
+    font-size: var(--font-tale-p);
+  }
+
+  p:not(:has(code)) {
+    line-height: 150%;
+    text-indent: calc(var(--font-tale-p) * 2);
+  }
+
+  p:has(code) {
+    line-height: 125%;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+</style>
+
+<body>
+  {% include header.html %}
+
+  <main>
+    <img src="{{ page.thumbnail }}" alt="" />
+
+    <p>
+      <strong>
+        <code>
+          ATENÇÃO: Este documento é classificado como NÍVEL 5 – OLHOS SOMENTE
+          pela Força Especial de Controle Sobrenatural (FECS-RP), Divisão
+          Monitoramento, Unidade Lobos.
+        </code>
+      </strong>
+    </p>
+
+    <p>
+      <strong>
+        <code>
+          Acesso restrito a oficiais autorizados pelo Controle Sobrenatural
+          Nacional (CSN).<br />Divulgação não autorizada sujeita a penalidades
+          sob o Artigo 13-B da Lei Ocultista.
+        </code>
+      </strong>
+    </p>
+    <p>
+      <code>Prossiga apenas se possuir clearance válido.</code>
+    </p>
+
+    <h2>Dossiê Garou: {{ page.title }}</h2>
+
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+</body>
