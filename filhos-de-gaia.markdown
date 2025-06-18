@@ -1,7 +1,7 @@
 ---
 layout: artist
 title: Filhos de Gaia
-thumbnail: https://sanguequente.art/images/filhos_de_gaia_cover.jpg
+thumbnail: filhos_de_gaia_cover.jpg
 ---
 
 ## Filhos de Gaia
@@ -45,16 +45,16 @@ Seu som é uma horda de estilos: o núcleo é metal puro, mas cada integrante in
   </div>
 </div>
 
-{% include olho_da_tempestade.html title="True" full_credits="True" lyrics="True" %}
+{% include musics/olho_da_tempestade.html title="True" full_credits="True" lyrics="True" %}
 
-{% include filhos_do_vento.html title="True" full_credits="True" %}
+{% include musics/filhos_do_vento.html title="True" full_credits="True" %}
 
-{% include ultimo_da_alcateia.html title="True" full_credits="True" %}
+{% include musics/sangue_no_espelho_umbra.html title="True" full_credits="True" %}
 
-{% include sangue_no_espelho_umbra.html title="True" full_credits="True" %}
+{% include musics/ultimo_da_alcateia.html title="True" full_credits="True" %}
 
-{% include apice_da_furia.html title="True" full_credits="True" %}
+{% include musics/apice_da_furia.html title="True" full_credits="True" %}
 
-{% include cinzas_de_gaia.html title="True" full_credits="True" %}
+{% include musics/cinzas_de_gaia.html title="True" full_credits="True" %}
 
-{% include furia_de_mil_guarras.html title="True" full_credits="True" %}
+{% include musics/furia_de_mil_guarras.html title="True" full_credits="True" %}

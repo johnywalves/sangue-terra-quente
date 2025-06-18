@@ -1,10 +1,13 @@
 ---
 layout: wolf
 title: Han
-thumbnail: https://sanguequente.art/images/dossie_han.png
+subtitle: Técnica e conhecimento sobre a força, exceto quando necessária
+thumbnail: dossie_han.png
+background: dossie_background.png
+csn: true
 ---
 
-O Jovem Han Kuro Kumo sempre sentiu uma estranha curiosidade para com objetos eletrônicos, sua familia de artistas marciais sempre teve recursos e o presenteava com muitos brinquedos e mais tarde com ferramentas.
+O jovem Han Kuro Kumo sempre sentiu uma estranha curiosidade para com objetos eletrônicos, sua familia de artistas marciais sempre teve recursos e o presenteava com muitos brinquedos e mais tarde com ferramentas.
 
 Ganhou seu primeiro computador com 11 anos e foi ele mesmo quem o montou, assim como instalou os programas operacionais.
 
@@ -21,4 +24,4 @@ Não só os dois bandidos foram retalhados, como a construção veio a baixo sot
 
 Após a primeira transformação os próprios espíritos, principalmente aranhas do padrão e de rede, vieram lhe aconselhar e doutrinar nos caminhos da Weaver, assim como nos passos do patrono Aranha e da Tribo dos Andarilhos do Asfalto.
 
-Hoje busca fazer um bom trabalho na Policia Civil, se formar e conseguir se relacionar com Tatiana a Filha de seu professor Hernane, da aula de Materiais compostos que tanto adora.
+Hoje busca fazer um bom trabalho na Policia Civil, se formar e conseguir se relacionar com Tatiana, a filha de seu professor Hernane, da aula de Materiais compostos que tanto adora.

@@ -1,7 +1,8 @@
 {% assign title = page.title %} {% if page.title %} {% assign title = title |
 append: " | " %} {% endif %} {% assign title = title | append: site.title %} {%
-assign thumbnail = {{ site.baseurl }}/images/thumbnail.jpg %} {% if
-page.thumbnail %} {% assign thumbnail = page.thumbnail %} {% endif %}
+assign thumbnail = site.baseurl | append: "/images/thumbnail.jpg" %} {% if
+page.thumbnail %} {% assign thumbnail = site.baseurl | append: "/images/" |
+append: page.thumbnail %} {% endif %}
 
 <head>
   <meta charset="UTF-8" />
@@ -174,8 +175,7 @@ page.thumbnail %} {% assign thumbnail = page.thumbnail %} {% endif %}
         gap: 2rem;
       }
 
-      & img,
-      & p {
+      & img {
         filter: saturate(0);
         transition: filter 0.25s;
 
@@ -189,21 +189,23 @@ page.thumbnail %} {% assign thumbnail = page.thumbnail %} {% endif %}
         text-align: center;
         font-size: 1.25rem;
         font-weight: 300;
+        transition: opacity 0.25s;
         opacity: 0.75;
 
         &:hover {
           opacity: 1;
+        }
+
+        & strong {
+          font-weight: 500;
         }
       }
 
       & a,
       & a:hover,
       & a:visited {
+        transition: color 0.25s;
         color: var(--color-text);
-
-        & strong {
-          font-weight: 500;
-        }
       }
 
       & a:hover strong {

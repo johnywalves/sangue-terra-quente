@@ -2,7 +2,7 @@
 
 <style type="text/css">
   body {
-    background-image: url("{{ site.baseurl }}/images/dossie_background.png");
+    background-image: url("{{ site.baseurl }}/images/{{ page.background }}");
     background-position: top right;
     background-repeat: no-repeat;
     background-position-y: 3rem;
@@ -21,11 +21,21 @@
 
     & p:has(code) {
       line-height: 125%;
+
+      & span {
+        font-size: 80%;
+        opacity: 0.8;
+      }
     }
 
     & h2 {
       padding: 2.5rem var(--margin-content-x) 0;
       font-size: var(--font-tale-h2);
+    }
+
+    & h3 {
+      padding: 1.5rem var(--margin-content-x) 0;
+      font-size: var(--font-tale-h3);
     }
 
     & p {
@@ -42,6 +52,18 @@
         width: 100%;
       }
     }
+
+    & div.title {
+      display: flex;
+      flex-direction: column;
+      font-size: var(--font-tale-h2);
+
+      & small {
+        padding: 0 var(--margin-content-x);
+        font-size: 50%;
+        font-weight: 300;
+      }
+    }
   }
 </style>
 
@@ -49,8 +71,95 @@
   {% include header.html %}
 
   <main>
-    <img src="{{ page.thumbnail }}" alt="" />
+    <img src="{{ site.baseurl }}/images/{{ page.thumbnail }}" alt="" />
 
+    {%if page.gestapo %}
+    <p>
+      <strong>
+        <code>Geheime Reichssache</code>
+        <br />
+        <span>Assunto Secreto do Reich</span>
+      </strong>
+    </p>
+
+    <p><code>Oslo, den 18.09.1940</code></p>
+
+    <p>
+      <code>
+        An: Abteilung „Übernatürliche Wesen“ – Gestapo / RSHA<br />
+        <span>
+          Para: Departamento de Seres Sobrenaturais – Gestapo / RSHA
+        </span>
+      </code>
+    </p>
+
+    <p>
+      <code>
+        Betreff:
+        <strong>
+          Sondervorgang Ringerike – Verdacht auf Werwolf-Aktivitäten
+        </strong>
+        <br />
+        <span>
+          Assunto:s
+          <strong>
+            Operação Especial Ringerike – Suspeita de Atividades de Lobisomens
+          </strong>
+        </span>
+      </code>
+    </p>
+
+    <p>
+      <code>
+        Hiermit übermitteln wir die beigefügten Berichte über ungewöhnliche
+        Vorfälle in der Region Ringerike (Norwegen).<br />
+        <span>
+          Encaminhamos os relatórios anexos sobre os recentes incidentes
+          incomuns na região de Ringerike (Noruega).
+        </span>
+      </code>
+    </p>
+
+    <p>
+      <code>
+        Zeugenberichte und erste Ermittlungen deuten auf mögliche Aktivitäten
+        feindlicher, übernatürlicher Natur hin – insbesondere Verdacht auf
+        Werwölfe.<br />
+        <span>
+          Relatos de testemunhas e investigações preliminares indicam possível
+          atividade inimiga de natureza sobrenatural – suspeita de lobisomens.
+        </span>
+      </code>
+    </p>
+
+    <p>
+      <code>
+        Unverzügliche Prüfung und Einsatz weiterer Spezialkräfte werden
+        angeordnet.<br />
+        <span>
+          Determina-se investigação imediata e envio de forças especializadas
+          adicionais.
+        </span>
+      </code>
+    </p>
+
+    <p>
+      <strong>
+        <code>Nur für autorisierte Stellen!</code><br />
+        <span> Somente para setores autorizados!</span>
+      </strong>
+    </p>
+
+    <p><code>Dr. H. Vogel</code></p>
+    <p>
+      <code>
+        Leiter der Sonderabteilung für Übernatürliche Angelegenheiten
+        <br />
+        <span> Chefe da Seção Especial de Assuntos Sobrenaturais </span>
+      </code>
+    </p>
+    <p><code>RSHA – Amt VI</code></p>
+    {% endif %} {%if page.csn %}
     <p>
       <strong>
         <code>
@@ -73,8 +182,12 @@
     <p>
       <code>Prossiga apenas se possuir <em>clearance</em> válido.</code>
     </p>
+    {% endif %}
 
-    <h2>Dossiê Garou: {{ page.title }}</h2>
+    <div class="title">
+      <h2>Dossiê Garou: {{ page.title }}</h2>
+      <small>{{ page.subtitle }}</small>
+    </div>
 
     {{ content }}
   </main>
