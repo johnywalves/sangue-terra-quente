@@ -14,13 +14,20 @@
     flex-direction: column;
     gap: 1.5rem;
 
+    & p {
+      padding: 0 var(--margin-content-x);
+      font-size: var(--font-tale-p);
+    }
+
     & p:not(:has(code)) {
       line-height: 150%;
+      text-align: justify;
       text-indent: calc(var(--font-tale-p) * 2);
     }
 
     & p:has(code) {
       line-height: 125%;
+      text-align: left;
 
       & span {
         font-size: 80%;
@@ -36,13 +43,6 @@
     & h3 {
       padding: 1.5rem var(--margin-content-x) 0;
       font-size: var(--font-tale-h3);
-    }
-
-    & p {
-      padding: 0 var(--margin-content-x);
-      line-height: 150%;
-      text-align: justify;
-      font-size: var(--font-tale-p);
     }
 
     & img {
@@ -87,7 +87,7 @@
       >
     </p>
 
-    <p>
+    <p style="margin-top: 1rem">
       <strong><code>IDENTIFICAÇÃO DO ALVO:</code></strong>
     </p>
 
@@ -113,7 +113,7 @@
       </code>
     </p>
 
-    <p>
+    <p style="margin-top: 1rem">
       <strong><code>ORDENS DO CSN:</code></strong>
     </p>
 
@@ -148,7 +148,11 @@
       </strong>
     </p>
 
-    <p><code>Oslo, den 18.09.1940</code></p>
+    <p>
+      <code>Oslo, den 18.09.1940</code>
+      <br />
+      <span>Oslo, 18 de setembro de 1940</span>
+    </p>
 
     <p>
       <code>
@@ -224,7 +228,11 @@
         <span> Chefe da Seção Especial de Assuntos Sobrenaturais </span>
       </code>
     </p>
-    <p><code>RSHA – Amt VI</code></p>
+    <p>
+      <code>RSHA – Amt VI</code>
+      <br />
+      <span>RSHA – Departamento VI</span>
+    </p>
     {% endif %} {%if page.csn %}
     <p>
       <strong>
