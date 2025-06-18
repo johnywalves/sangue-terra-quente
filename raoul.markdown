@@ -2,7 +2,7 @@
 layout: wolf
 title: Raoul
 subtitle: O Sangue de Jeger - Uma Lenda Garou
-thumbnail: dossie_gestapo_background.png
+thumbnail: dossie_raoul.png
 background: dossie_gestapo_background.png
 gestapo: true
 ---

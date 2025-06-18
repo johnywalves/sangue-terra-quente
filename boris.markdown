@@ -4,6 +4,7 @@ title: Boris
 subtitle: A Fera que Não Esquece
 thumbnail: dossie_boris.png
 background: boris_criminal_background.png
+danger: true
 ---
 
 Filho da negligência e da sobrevivência, Boris Umbra nasceu em um lar disfuncional, o sétimo rebento de uma família afogada na miséria e na indiferença. Seus pais, vencidos pelo cansaço e pela falta de esperança, mal sabiam quem ele era. Desde cedo, Boris entendeu que sua existência não seria protegida – teria que ser imposta. Nas ruas de concreto rachado, ele cresceu com os joelhos ralados, os punhos cerrados e a fúria em ebulição.
@@ -16,7 +17,7 @@ Sem família, sem lar, sem orientação, Boris vagou entre os rejeitados. Encont
 
 Mas sua fúria era profunda demais. Durante um treino, humilhado por um companheiro, perdeu o controle. A forma de Crinos emergiu sem freios. O outro jovem Garou foi dilacerado. O crime foi imperdoável. A matilha o baniu, jurando matá-lo se voltasse. Boris partiu sem olhar para trás.
 
-Tomou o primeiro ônibus que encontrou e desembarcou em Black River. Lá, o caos encontrou função. Trabalhando como cobrador para um agiota local, Boris virou lenda. Ninguém esquecia sua visita. A dívida podia até ser paga em dinheiro, mas o medo era sempre cobrado com juros. Brutal, frio, incansável. Alguns dizem que sua simples presença basta para fazer os inadimplentes chorarem.
+Tomou o primeiro ônibus que encontrou e desembarcou em Rio Preto. Lá, o caos encontrou função. Trabalhando como cobrador para um agiota local, Boris virou lenda. Ninguém esquecia sua visita. A dívida podia até ser paga em dinheiro, mas o medo era sempre cobrado com juros. Brutal, frio, incansável. Alguns dizem que sua simples presença basta para fazer os inadimplentes chorarem.
 
 Mas Boris carrega mais do que brutalidade. Ele é Ahroun, um dos guerreiros sagrados de Gaia. Sua Fúria não é só destruição — é a arma viva contra a corrupção da Wyrm, a entidade da decadência, da loucura e da perversão. Ainda que renegado, Boris é uma peça na guerra espiritual que molda o destino da Terra.
 
