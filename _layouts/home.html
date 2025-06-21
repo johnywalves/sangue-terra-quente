@@ -121,7 +121,7 @@
       bottom: 0;
       right: calc(var(--margin-content-x) - 2rem);
 
-      height: calc(100% + 6rem);
+      height: calc(100% + 9rem);
       max-width: 100%;
       overflow: hidden;
 
@@ -177,7 +177,8 @@
 
   main section#about {
     & div.illustrator {
-      right: 1rem;
+      right: calc(var(--margin-content-x) - 8rem);
+      height: calc(100% + 5rem);
 
       @media (max-width: 980px) {
         right: 0;
@@ -398,6 +399,34 @@
     <section id="elements" class="linkList">
       <h2>Ambiente</h2>
       <div class="pages collection">
+        <a href="{{ site.baseurl }}/raoul">
+          <div class="link">
+            <small>Personagem</small>
+            <h3>Raoul</h3>
+          </div>
+        </a>
+
+        <a href="{{ site.baseurl }}/caolho">
+          <div class="link">
+            <small>Personagem</small>
+            <h3>Caolho</h3>
+          </div>
+        </a>
+
+        <a href="{{ site.baseurl }}/dante">
+          <div class="link">
+            <small>Personagem</small>
+            <h3>Dante</h3>
+          </div>
+        </a>
+
+        <a href="{{ site.baseurl }}/boris">
+          <div class="link">
+            <small>Personagem</small>
+            <h3>Boris</h3>
+          </div>
+        </a>
+
         <a href="{{ site.baseurl }}/han">
           <div class="link">
             <small>Personagem</small>
@@ -411,11 +440,6 @@
             <h3>Filhos de Gaia</h3>
           </div>
         </a>
-
-        <div class="link disable">
-          <small>breve</small>
-          <h3>Personagens</h3>
-        </div>
 
         <div class="link disable">
           <small>breve</small>

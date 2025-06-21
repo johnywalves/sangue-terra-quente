@@ -2,8 +2,9 @@
 layout: wolf
 title: Caolho
 subtitle: A comunidade é a força da alma
-thumbnail: dossie_han.png
-background: dossie_background.png
+thumbnail: dossie_caolho.png
+background: dossie_bag.png
+samba: true
 ---
 
 Adalberto "Caolho" e sua irmã gêmea Adriana foram abandonados no posto de saúde logo após nascerem. Viveram ambos em um orfanato, e quando o orfanato fechou por falta de dinheiro, passaram a viver nas ruas. Caolho se uniu a uma gangue de rua e caiu no crime, como trombadinha e eventualmente assaltante.

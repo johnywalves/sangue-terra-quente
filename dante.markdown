@@ -2,8 +2,9 @@
 layout: wolf
 title: Dante
 subtitle: (oxítona, pronuncia-se Dan-tê)
-thumbnail: dossie_han.png
-background: dossie_background.png
+thumbnail: dossie_dante.png
+background: dossie_flyer.png
+vote: true
 ---
 
 Desde cedo, Dante aprendeu que o mundo real era feito de camadas. Por trás de cada sorriso político, de cada reunião de negócios e de cada decisão pública, havia uma rede invisível de interesses, manipulações e trocas de poder. Filho de um influente empresário da construção civil e de uma professora de biologia ambiental, Dante cresceu entre os extremos: os salões de reuniões repletos de cifras e os campos de proteção ambiental onde sua mãe lutava contra a destruição desenfreada.
