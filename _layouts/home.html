@@ -176,6 +176,8 @@
   }
 
   main section#about {
+    overflow-x: hidden;
+
     & div.illustrator {
       right: calc(var(--margin-content-x) - 8rem);
       height: calc(100% + 5rem);
@@ -232,6 +234,9 @@
   }
 
   main section#elements {
+    z-index: 0;
+    background-color: #030a0a;
+
     & img {
       height: 100%;
       width: fit-content;
